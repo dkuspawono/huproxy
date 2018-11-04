@@ -80,3 +80,4 @@ ssh -o 'ProxyCommand=./huproxyclient -auth=thomas:secretpassword wss://proxy.exa
 ssh -o 'ProxyCommand=./huproxyclient -auth=@<(echo thomas:secretpassword) wss://proxy.example.com/proxy/%h/%p' shell.example.com
 ssh -o 'ProxyCommand=./huproxyclient -auth=@$HOME/.huproxy.pw wss://proxy.example.com/proxy/%h/%p' shell.example.com
 ```
+
